@@ -24,7 +24,3 @@
 - **Coil**: Image loading is made effortless with Coil. It caches and loads images seamlessly into ImageViews for an optimal user experience.
 
 - **Cloud Firestore**: In addition to Firebase Firestore, we utilize Cloud Firestore to enhance data synchronization and provide real-time updates, ensuring your app always displays the latest information.
-
-MyApp is designed to deliver a user-friendly experience while utilizing these cutting-edge technologies. Dive into the code and explore how these components work together to create a robust Android app.
-
-[Insert link to your GitHub repository here]
