@@ -5,3 +5,4 @@
 ![image](https://github.com/KarimovEldar/ClickCart/assets/142349187/e5f28dcd-51c9-4771-8226-40a95968b7cb)
 ![image](https://github.com/KarimovEldar/ClickCart/assets/142349187/db37d07a-c6db-445a-8f64-c93ba4397fb0)
 ![image](https://github.com/KarimovEldar/ClickCart/assets/142349187/9620c5fd-5167-4857-8858-89eda7284d3e)
+## Libraries and technologies used
