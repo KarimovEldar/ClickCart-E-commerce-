@@ -6,6 +6,10 @@
 ![image](https://github.com/KarimovEldar/ClickCart/assets/142349187/db37d07a-c6db-445a-8f64-c93ba4397fb0)
 ![image](https://github.com/KarimovEldar/ClickCart/assets/142349187/9620c5fd-5167-4857-8858-89eda7284d3e)
 
+### Figma Design Link
+You can explore the Figma design for this project [here](https://www.figma.com/file/fmbmQDd0UfPrynFOJxTtom/ClickCart?type=design&node-id=0-286&mode=design&t=GRRORpwu2CiYmzdt-0).
+
+
 ## Libraries and technologies used
 
 - **Navigation Component**: I leverage the Navigation Component to streamline navigation within the app. One activity hosts multiple fragments, making the app structure efficient and easy to manage.
