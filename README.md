@@ -9,7 +9,6 @@
 ### Figma Design Link
 You can explore the Figma design for this project [here](https://www.figma.com/file/fmbmQDd0UfPrynFOJxTtom/ClickCart?type=design&node-id=0-286&mode=design&t=GRRORpwu2CiYmzdt-0).
 
-
 ## Libraries and technologies used
 
 - **Navigation Component**: I leverage the Navigation Component to streamline navigation within the app. One activity hosts multiple fragments, making the app structure efficient and easy to manage.
