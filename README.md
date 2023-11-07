@@ -1,5 +1,5 @@
 ## ClickCart - Your Ultimate E-Commerce Shopping App
-## Screenshots
+### Screenshots
 ![image](https://github.com/KarimovEldar/ClickCart/assets/142349187/01b968b7-cef0-4de5-9392-0546edee793b)
 ![image](https://github.com/KarimovEldar/ClickCart/assets/142349187/95ccf01a-4014-4fa4-aab5-93bdd39999c8)
 ![image](https://github.com/KarimovEldar/ClickCart/assets/142349187/e5f28dcd-51c9-4771-8226-40a95968b7cb)
@@ -9,7 +9,7 @@
 ### Figma Design Link
 You can explore the Figma design for this project [here](https://www.figma.com/file/fmbmQDd0UfPrynFOJxTtom/ClickCart?type=design&node-id=0-286&mode=design&t=GRRORpwu2CiYmzdt-0).
 
-## Libraries and technologies used
+### Libraries and technologies used
 
 - **Navigation Component**: I leverage the Navigation Component to streamline navigation within the app. One activity hosts multiple fragments, making the app structure efficient and easy to manage.
 
