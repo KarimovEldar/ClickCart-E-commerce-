@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="white">#FFFFFFFF</color>
+    <color name="light_gray">#f0f2ef</color>
+    <color name="medium_gray">#c8c9c8</color>
+    <color name="gray">#a1a1a1</color>
+    <color name="medium_dark_gray">#808080</color>
+    <color name="dark_gray">#49454f</color>
+    <color name="darker_gray">#424242</color>
+    <color name="dark">#333333</color>
+    <color name="darker">#1c1b1f</color>
+    <color name="black">#FF000000</color>
+
+    <!-- LIGHT THEME -->
+
+    <color name="light_green">#B2C9AB</color>
+    <color name="green">#789C72</color>
+    <color name="dark_green">#169955</color>
+    <color name="light_blue">#EEFAF6</color>
+    <color name="medium_blue">#ABB4BD</color>
+    <color name="blue">#40BFFF</color>
+    <color name="light_purple">#9098B1</color>
+    <color name="purple">#ad9cff</color>
+    <color name="light_red">#f7f2f9</color>
+    <color name="medium_red">#DB5A42</color>
+    <color name="red">#FE3A30</color>
+    <color name="pink">#e488c7</color>
+
+    <color name="backgroundColor">@color/white</color>
+    <color name="statusBarColor">@color/light_green</color>
+    <color name="toolbarColor">@color/light_green</color>
+    <color name="bottomBarColor">@color/light_green</color>
+
+    <color name="alertDialogBackgroundColor">@color/white</color>
+    <color name="textPrimaryColor">@color/dark_gray</color>
+    <color name="textSecondaryColor">@color/medium_dark_gray</color>
+
+    <color name="textColorHintEnabled">@color/medium_gray</color>
+    <color name="textColorHintDisabled">@color/dark</color>
+
+    //Splash screen
+    <color name="splashBackgroundColor">@color/light_green</color>
+    <color name="splashIconColor">@color/white</color>
+
+    //Home Fragment
+    <color name="textPrimaryColorInHomeFragment">@color/dark</color>
+    <color name="textSecondaryColorInHomeFragment">@color/dark_green</color>
+
+    //Address Activity
+    <color name="checkoutButtonColor">@color/light_green</color>
+    <color name="checkBoxGenderColor">@color/dark</color>
+
+    //Profile Activity
+    <color name="buttonIconBackgroundColor">@color/dark_green</color>
+
+    //Product Item layout
+    <color name="productItemBackgroundColor">@color/light_blue</color>
+    <color name="productItemNameColor">@color/dark_gray</color>
+    <color name="productItemPriceColor">@color/medium_dark_gray</color>
+    <color name="longProductItemPriceColor">@color/medium_dark_gray</color>
+    <color name="productItemCategoryColor">@color/purple</color>
+
+    //Product Details Activity
+    <color name="buttonBackgroundColorInProductDetails">@color/light_green</color>
+
+    //Cart Fragment
+    <color name="checkoutCardViewBackgroundColor">@color/light_gray</color>
+
+</resources>
