@@ -7,7 +7,7 @@
 ![image](https://github.com/KarimovEldar/ClickCart/assets/142349187/9620c5fd-5167-4857-8858-89eda7284d3e)
 
 ### Figma Design Link
-You can explore the Figma design for this project [here](https://www.figma.com/file/C41BuNhRdm4DGR5Lpi9rkB/Untitled?type=design&node-id=0-1&mode=design&t=s2qpfREBiropBwc8-0).
+You can explore the Figma design for this project [here](https://www.figma.com/file/ijaQwVIHjUr6wCnvEG63CO/Untitled?type=design&node-id=0-1&mode=design&t=QWapesuzcXBi7Cbc-0).
 
 ### Libraries and technologies used
 
