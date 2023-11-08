@@ -10,7 +10,7 @@
 You can explore the Figma design for this project [here](https://www.figma.com/file/fmbmQDd0UfPrynFOJxTtom/ClickCart?type=design&node-id=0-286&mode=design&t=GRRORpwu2CiYmzdt-0).
 
 ### Download ClickCart APK
-[ClickCart APK](https://drive.google.com/open?id=1dIRMbiveR1abWm3EHng5vPGO7Mf78-eI&usp=drive_copy)
+[ClickCart APK](https://drive.google.com/file/d/1dIRMbiveR1abWm3EHng5vPGO7Mf78-eI/view?usp=drive_link)
 
 ### Libraries and technologies used
 
