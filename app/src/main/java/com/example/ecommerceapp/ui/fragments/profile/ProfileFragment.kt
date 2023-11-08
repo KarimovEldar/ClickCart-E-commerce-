@@ -109,8 +109,10 @@ class ProfileFragment : Fragment() {
             firebaseDb.getUser(userPhoneNumber!!) { userName ->
                 if (userName != null) {
                     binding.profileNameTextView.text = userName
+                    binding.profileNumberTextView.text = userPhoneNumber!!
                 } else {
                     binding.profileNameTextView.text = R.string.user_name.toString()
+                    binding.profileNumberTextView.text = "+994 xxx xx xx"
                 }
             }
         }
