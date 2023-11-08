@@ -7,7 +7,10 @@
 ![image](https://github.com/KarimovEldar/ClickCart/assets/142349187/9620c5fd-5167-4857-8858-89eda7284d3e)
 
 ### Figma Design Link
-You can explore the Figma design for this project [here](https://www.figma.com/file/ijaQwVIHjUr6wCnvEG63CO/ClickCart?type=design&node-id=0-1&mode=design&t=QWapesuzcXBi7Cbc-0).
+- **You can explore the Figma design for this project** [here](https://www.figma.com/file/ijaQwVIHjUr6wCnvEG63CO/ClickCart?type=design&node-id=0-1&mode=design&t=QWapesuzcXBi7Cbc-0).
+
+### Demo Video
+- **Watch the demo video for this project** [here](https://player.vimeo.com/progressive_redirect/playback/882452549/rendition/720p/file.mp4?loc=external&signature=63908df93db536fdb7ece444551033d73ce401da6bac95b70bd413fc44ec58fc).
 
 ### Libraries and technologies used
 
