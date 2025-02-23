@@ -23,6 +23,17 @@
 ### ✅ Checkout Screen
 ![Checkout Screen](https://github.com/KarimovEldar/ClickCart/assets/142349187/9620c5fd-5167-4857-8858-89eda7284d3e)
 
+<div align="center">
+  <img src="https://github.com/KarimovEldar/ClickCart/assets/142349187/01b968b7-cef0-4de5-9392-0546edee793b" width="300">
+  <img src="https://github.com/KarimovEldar/ClickCart/assets/142349187/95ccf01a-4014-4fa4-aab5-93bdd39999c8" width="300">
+  <img src="https://github.com/KarimovEldar/ClickCart/assets/142349187/e5f28dcd-51c9-4771-8226-40a95968b7cb" width="300">
+</div>
+
+<div align="center">
+  <img src="https://github.com/KarimovEldar/ClickCart/assets/142349187/db37d07a-c6db-445a-8f64-c93ba4397fb0" width="300">
+  <img src="https://github.com/KarimovEldar/ClickCart/assets/142349187/9620c5fd-5167-4857-8858-89eda7284d3e" width="300">
+</div>
+
 
 ### Figma Design Link
 - **You can explore the Figma design for this project** [here](https://www.figma.com/file/ijaQwVIHjUr6wCnvEG63CO/ClickCart?type=design&node-id=0-1&mode=design&t=QWapesuzcXBi7Cbc-0).
