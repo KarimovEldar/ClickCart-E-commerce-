@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/menu_sort_by"
+            android:title="@string/sort_by">
+            <menu>
+                <item
+                    android:id="@+id/menu_price_high"
+                    android:title="High Price"/>
+
+                <item
+                    android:id="@+id/menu_price_low"
+                    android:title="Low Price"/>
+            </menu>
+
+        </item>
+    </group>
+
+    <item
+        android:id="@+id/menu_search_product"
+        android:icon="@drawable/ic_search"
+        android:focusableInTouchMode="true"
+        android:iconTint="@color/white"
+        android:title="@string/search"
+        app:showAsAction="ifRoom"
+        app:actionViewClass="androidx.appcompat.widget.SearchView"
+        tools:targetApi="o" />
+
+</menu>

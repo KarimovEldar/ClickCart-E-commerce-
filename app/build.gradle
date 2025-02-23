@@ -1,0 +1,132 @@
+plugins {
+    id 'com.android.application'
+    id 'org.jetbrains.kotlin.android'
+    id 'kotlin-kapt'
+    id 'androidx.navigation.safeargs.kotlin'
+    id 'com.google.gms.google-services'
+    id 'dagger.hilt.android.plugin'
+}
+
+android {
+    namespace 'com.example.ecommerceapp'
+    compileSdk 33
+
+    buildFeatures{
+        viewBinding = true
+        dataBinding = true
+    }
+
+    defaultConfig {
+        applicationId "com.example.ecommerceapp"
+        minSdk 24
+        targetSdk 33
+        versionCode 1
+        versionName "1.0"
+
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_17
+        targetCompatibility JavaVersion.VERSION_17
+    }
+    kotlinOptions {
+        jvmTarget = '17'
+    }
+}
+
+dependencies {
+
+    implementation 'androidx.core:core-ktx:1.8.0'
+    implementation 'androidx.appcompat:appcompat:1.6.1'
+    implementation 'com.google.android.material:material:1.5.0'
+    implementation 'androidx.constraintlayout:constraintlayout:2.1.4'
+    testImplementation 'junit:junit:4.13.2'
+    androidTestImplementation 'androidx.test.ext:junit:1.1.5'
+    androidTestImplementation 'androidx.test.espresso:espresso-core:3.5.1'
+    //Firebase
+    implementation platform('com.google.firebase:firebase-bom:32.2.3')
+    implementation 'com.google.firebase:firebase-auth-ktx:22.1.1'
+    implementation 'com.google.firebase:firebase-firestore-ktx:24.7.1'
+    implementation 'com.google.firebase:firebase-analytics-ktx:21.3.0'
+    implementation 'com.google.firebase:firebase-storage-ktx:20.2.1'
+
+    //Navigation Component
+    implementation 'androidx.navigation:navigation-fragment-ktx:2.6.0'
+    implementation 'androidx.navigation:navigation-ui:2.6.0'
+
+    //Room components
+    implementation 'androidx.room:room-runtime:2.5.2'
+    kapt 'androidx.room:room-compiler:2.5.2'
+    implementation 'androidx.room:room-ktx:2.5.2'
+    androidTestImplementation 'androidx.room:room-testing:2.5.2'
+
+    //Coroutine
+    implementation 'org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.8.22'
+    api "org.jetbrains.kotlinx:kotlinx-coroutines-core:1.7.1"
+    api "org.jetbrains.kotlinx:kotlinx-coroutines-android:1.7.1"
+
+    //Smooth Bottom Bar
+    implementation 'com.github.ibrahimsn98:SmoothBottomBar:1.7.9'
+
+    //Coil (Image Loading library)
+    implementation "io.coil-kt:coil:2.4.0"
+
+    //Image slide show
+    implementation 'com.github.denzcoskun:ImageSlideshow:0.1.2'
+
+    //Payment
+    implementation "com.android.billingclient:billing:6.0.1"
+
+    //Countries Code EditText
+    implementation 'com.hbb20:ccp:2.5.0'
+    implementation("com.github.leandroborgesferreira:loading-button-android:2.3.0")
+
+    //Dagger-Hilt
+    implementation "com.google.dagger:hilt-android:2.44"
+    kapt "com.google.dagger:hilt-android-compiler:2.44"
+    kapt "androidx.hilt:hilt-compiler:1.0.0"
+
+    implementation "androidx.lifecycle:lifecycle-viewmodel-ktx:2.6.2"
+    implementation "androidx.lifecycle:lifecycle-runtime-ktx:2.6.2"
+
+    //Retrofit
+    implementation 'com.squareup.retrofit2:converter-gson:2.9.0'
+    implementation 'io.github.chaosleung:pinview:1.4.4'
+
+    //PinView
+    implementation 'io.github.chaosleung:pinview:1.4.4'
+
+    //Toggle Button
+    implementation 'com.github.GwonHyeok:StickySwitch:0.0.16'
+
+    //Lifecycle components
+    implementation 'androidx.lifecycle:lifecycle-extensions:2.2.0'
+    implementation 'androidx.lifecycle:lifecycle-viewmodel-ktx:2.6.1'
+    implementation "androidx.lifecycle:lifecycle-runtime-ktx:2.6.1"
+    implementation "androidx.lifecycle:lifecycle-livedata-ktx:2.6.1"
+
+    //Gson
+    implementation 'com.google.code.gson:gson:2.10.1'
+
+    //Jsoup
+    implementation 'org.jsoup:jsoup:1.13.1'
+
+    //Shimmer
+    implementation 'com.facebook.shimmer:shimmer:0.5.0'
+
+    //DataStore
+    implementation "androidx.datastore:datastore-preferences:1.1.0-alpha04"
+
+    //Language
+    implementation 'com.akexorcist:localization:1.2.11'
+
+    implementation 'com.github.akshaaatt:Google-IAP:1.5.0'
+
+}

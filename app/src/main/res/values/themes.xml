@@ -1,0 +1,26 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.ECommerceApp" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="android:statusBarColor">@color/statusBarColor</item>
+    </style>
+
+    <style name="CustomBlueOutlinedButton" parent="Widget.Material3.Button.OutlinedButton">
+        <!-- Other attributes if needed -->
+        <item name="strokeColor">@color/blue</item>
+    </style>
+
+    <style name="CustomRedOutlinedButton" parent="Widget.Material3.Button.OutlinedButton">
+        <!-- Other attributes if needed -->
+        <item name="strokeColor">@color/red</item>
+    </style>
+
+    <style name="Circular">
+        <item name="cornerSize">50%</item>
+    </style>
+
+    <style name="ThreeDotColor" parent = "Widget.AppCompat.Light.ActionButton.Overflow">
+        <item name="tint">@color/white</item>
+    </style>
+
+    <style name="Theme.ECommerceApp" parent="Base.Theme.ECommerceApp" />
+</resources>

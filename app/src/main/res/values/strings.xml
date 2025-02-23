@@ -1,0 +1,46 @@
+<resources>
+    <string name="app_name">ClickCart</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="phone_number">Phone number</string>
+    <string name="sign_in">Sign in</string>
+    <string name="don_t_have_an_account">Don\'t have an account?</string>
+    <string name="sign_up">Sign up</string>
+    <string name="loading">Loading...</string>
+    <string name="shoe">Shoe</string>
+    <string name="profile">Profile</string>
+    <string name="shopping_cart">Shopping Cart</string>
+    <string name="home">Home</string>
+    <string name="search">Search</string>
+    <string name="sort_by">Sort By</string>
+    <string name="favorite">Favorite</string>
+    <string name="shop_by_category">Shop by Category</string>
+    <string name="see_all">See all</string>
+    <string name="shop_by_product">Shop by Product</string>
+    <string name="user_name">User Name</string>
+    <string name="welcome_back">Welcome back,</string>
+    <string name="name">Name</string>
+    <string name="female">Female</string>
+    <string name="male">Male</string>
+    <string name="country">Country</string>
+    <string name="city">City</string>
+    <string name="pin_code">Pin code</string>
+    <string name="proceed_to_checkout">Proceed to Checkout</string>
+    <string name="add_to_cart">Add to Cart</string>
+    <string name="enter_your_problem">Enter your problem</string>
+    <string name="your_cart_is_empty">Your cart is empty.</string>
+    <string name="please_verify_account">Please Verify Account</string>
+
+    <string-array name="price">
+        <item>High Price</item>
+        <item>Low Price</item>
+    </string-array>
+
+    <string-array name="languages">
+        <item>English</item>
+        <item>Azerbaycanca</item>
+    </string-array>
+
+
+</resources>

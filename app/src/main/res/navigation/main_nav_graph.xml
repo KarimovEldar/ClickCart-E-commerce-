@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_nav_graph"
+    app:startDestination="@id/homeFragment">
+
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.example.ecommerceapp.ui.fragments.home.HomeFragment"
+        android:label="fragment_home"
+        tools:layout="@layout/fragment_home">
+        <action
+            android:id="@+id/action_homeFragment_to_cartFragment"
+            app:destination="@id/cartFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_categoryActivity"
+            app:destination="@id/categoryActivity" />
+        <action
+            android:id="@+id/action_homeFragment_to_productActivity"
+            app:destination="@id/productActivity" />
+    </fragment>
+    <fragment
+        android:id="@+id/cartFragment"
+        android:name="com.example.ecommerceapp.ui.fragments.cart.CartFragment"
+        android:label="fragment_cart"
+        tools:layout="@layout/fragment_cart">
+        <action
+            android:id="@+id/action_cartFragment_to_homeFragment"
+            app:destination="@id/homeFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/profileFragment"
+        android:name="com.example.ecommerceapp.ui.fragments.profile.ProfileFragment"
+        android:label="fragment_profile"
+        tools:layout="@layout/fragment_profile" >
+        <action
+            android:id="@+id/action_profileFragment_to_authenticationActivity"
+            app:destination="@id/authenticationActivity" />
+    </fragment>
+    <activity
+        android:id="@+id/categoryActivity"
+        android:name="com.example.ecommerceapp.ui.activities.category.CategoryActivity"
+        android:label="activity_category"
+        tools:layout="@layout/activity_category" />
+    <activity
+        android:id="@+id/productActivity"
+        android:name="com.example.ecommerceapp.ui.activities.product.ProductActivity"
+        android:label="Products"
+        tools:layout="@layout/activity_product" />
+    <activity
+        android:id="@+id/productDetailsActivity"
+        android:name="com.example.ecommerceapp.ui.activities.details.ProductDetailsActivity"
+        android:label="Product Details"
+        tools:layout="@layout/activity_product_details" />
+    <activity
+        android:id="@+id/authenticationActivity"
+        android:name="com.example.ecommerceapp.ui.activities.authentication.AuthenticationActivity"
+        android:label="Authentication"
+        tools:layout="@layout/activity_authentication" />
+
+</navigation>
