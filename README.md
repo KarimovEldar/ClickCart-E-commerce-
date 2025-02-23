@@ -14,24 +14,14 @@
 
 ### Libraries and technologies used
 
-- **Navigation Component**: I leverage the Navigation Component to streamline navigation within the app. One activity hosts multiple fragments, making the app structure efficient and easy to manage.
+- **Navigation Component** - Manages navigation with one activity and multiple fragments.  
+- **MVVM & LiveData** - Separates UI from logic and keeps data updated after screen rotations.  
+- **Firebase Authentication** - Handles user login and registration securely.  
+- **Firebase Firestore** - Stores and syncs app data in real time.  
+- **Firebase Storage** - Saves product images and user profile pictures.  
+- **Room Database** - Manages local data efficiently.  
+- **Hilt (Dependency Injection)** - Simplifies dependency management.  
+- **Coroutines** - Runs background tasks without blocking the UI.  
+- **View Binding** - Makes working with views easier.  
+- **Coil** - Loads and caches images.  
 
-- **MVVM & LiveData**: My architecture follows the Model-View-ViewModel pattern, keeping logic and views separate. LiveData is used to handle data changes and maintain state even when screen configurations change.
-
-- **Firebase Authentication**: I use Firebase Auth to manage user accounts, handle login and registration, and ensure a secure authentication process.
-
-- **Firebase Firestore**: For cloud-based data storage, I rely on Firebase Firestore, a real-time NoSQL database. This enables efficient data management for the system.
-
-- **Firebase Storage**: Images, including product images and user profile pictures, are stored securely in Firebase Storage.
-
-- **Cloud Firestore**: In addition to Firebase Firestore, I utilize Cloud Firestore to enhance data synchronization and provide real-time updates, ensuring your app always displays the latest information.
-
-- **Room Database**: Locally, I employ Room Database to store and manage app data, providing an efficient and reliable way to work with local databases.
-
-- **Hilt (Dependency Injection)**: I use Hilt for Dependency Injection, ensuring that my app's components are injected with the required dependencies, making the code clean and maintainable.
-
-- **Coroutines**: I employ Coroutines to execute background tasks efficiently, ensuring smooth performance and responsiveness.
-
-- **View Binding**: To simplify the view setup process, I use View Binding, eliminating the need to manually inflate views.
-
-- **Coil**: Image loading is made effortless with Coil. It caches and loads images seamlessly into ImageViews for an optimal user experience.
